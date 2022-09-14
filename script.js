@@ -46,7 +46,7 @@ const typeController = (e) => {
     display.innerHTML += `<span class="green">${newLetter === " " ? "▪" : newLetter}</span>`;
   } else {
     display.innerHTML += `<span class="red">${newLetter === " " ? "▪" : newLetter}</span>`;
-    errorCount++; //I added this so that errors wil count
+    errorCount++; //I added this so that errors wil count when I make mistake
   }
 
   // check if given question text is equal to user typed text
