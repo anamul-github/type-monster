@@ -60,7 +60,7 @@ body {
   display: none;
 }
 
-/* Changed the position of the result */
+/* Changed the position of the result(after finishing type test) */
 #result {
   position: fixed;
   left: 50%;
